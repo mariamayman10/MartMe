@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/SignUp.css" />
+    <script src="../JS/User.js"></script>
+    <script src="../JS/UsersArray.js"></script>
+    <script src="../JS/SignUp.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="container row col-lg-12 col-md-12 col-sm-12">
+          <div class="left col-lg-6 col-md-12 col-sm-12">
+            <div class="content-left">
+              <p class="p1">Welcome</p>
+              <p class="p2">to MartMe !</p>
+              <p class="p3">
+                Thank you for choosing us for your grocery needs. At our online
+                supermarket, we strive to provide you with a convenient and
+                enjoyable shopping experience. Explore our wide range of
+                high-quality products, from fresh produce to pantry staples, all
+                available at your fingertips.
+              </p>
+              <p class="p4">
+                Signing up with us means you'll have access to exclusive deals,
+                personalized recommendations, and seamless checkout. Join our
+                community of happy shoppers and enjoy the ease of online grocery
+                shopping.
+              </p>
+              <p class="p5">
+                If you have any questions or need assistance,don't hesitate to
+                contact our customer support team. Happy shopping!
+              </p>
+              <button class="btn1">Contact Us</button>
+            </div>
+          </div>
+          <div class="right col-lg-6 col-md-12 col-sm-12">
+            <p class="logo">MartMe</p>
+            <div class="content-right">
+              <p class="h1">Sign Up</p>
+              <p class="msg" id="msg"></p>
+              <div>
+                <form action="" id="myForm">
+                  <div class="section1-row1">
+                    <div class="section1-input-cont">
+                      <input
+                        type="text"
+                        name=""
+                        id="name"
+                        placeholder="Name"
+                        class="section1-input"
+                        required
+                      />
+                      <label class="placeholder">Name</label>
+                    </div>
+                  </div>
+                  <div class="section1-row2">
+                    <div class="section1-input-cont">
+                      <input
+                        type="text"
+                        name=""
+                        id="email"
+                        placeholder="Email"
+                        class="section1-input"
+                        required
+                      />
+                      <label class="placeholder">Email</label>
+                    </div>
+                  </div>
+                  <div class="section1-row3">
+                    <div class="section1-input-cont">
+                      <input
+                        type="text"
+                        name=""
+                        id="phone"
+                        placeholder="Phone"
+                        class="section1-input"
+                        required
+                      />
+                      <label class="placeholder">Phone</label>
+                    </div>
+                  </div>
+                  <div class="section1-row4">
+                    <div class="section1-input-cont">
+                      <input
+                        type="password"
+                        name=""
+                        id="password"
+                        placeholder="Password"
+                        class="section1-input"
+                        required
+                      />
+                      <label class="placeholder">Password</label>
+                    </div>
+                  </div>
+                  <div class="section1-row5">
+                    <div class="section1-input-cont">
+                      <input
+                        type="password"
+                        name=""
+                        id="confirmP"
+                        placeholder="Confirm Password"
+                        class="section1-input"
+                        required
+                      />
+                      <label class="placeholder">Confirm Password</label>
+                    </div>
+                  </div>
+                  <div class="btn-container">
+                    <button class="btn2" type="submit" onclick="SaveUser()">
+                      Sign Up
+                    </button>
+                  </div>
+                </form>
+                <p class="p6">
+                  Already have an account?
+                  <a href="SignIn.html" target="_blank" class="sp">Sign In</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/SignIn.css" />
+    <script src="../JS/User.js"></script>
+    <script src="../JS/UsersArray.js"></script>
+    <script src="../JS/SignIn.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="container row col-lg-12 col-md-12 col-sm-12">
+        <div class="left col-lg-6 col-md-12 col-sm-12">
+          <div class="content-left">
+            <p class="p1">Welcome Back!</p>
+            <p class="p2">
+              Thank you for returning to our online supermarket. We're delighted
+              to have you back. Sign in to access your account and continue your
+              seamless shopping experience.
+            </p>
+            <p class="p3">
+              Forgot your password? No worries! Click on the "Reset Password"
+              link to reset it. If you have any questions or need assistance,
+              our customer support team is ready to help you.
+            </p>
+            <p class="p4">
+              Your satisfaction is our priority, and we appreciate your
+              continued trust in our service. Happy shopping!
+            </p>
+          </div>
+        </div>
+        <div class="right col-lg-6 col-md-12 col-sm-12">
+          <p class="logo">MartMe</p>
+          <div class="content-right">
+            <p class="h1">Sign In</p>
+            <p class="msg" id="msg"></p>
+            <div>
+              <form action="" id="myForm">
+                <div class="section1-row1">
+                  <div class="section1-input-cont">
+                    <input
+                      type="text"
+                      id="email"
+                      placeholder="Email"
+                      class="section1-input"
+                      required
+                    />
+                    <label class="placeholder">Email</label>
+                  </div>
+                </div>
+                <div class="section1-row2">
+                  <div class="section1-input-cont">
+                    <input
+                      type="password"
+                      id="password"
+                      placeholder="Password"
+                      class="section1-input"
+                      required
+                    />
+                    <label class="placeholder">Password</label>
+                  </div>
+                </div>
+                <div class="remember">
+                  <input type="checkbox" />
+                  <p>Remember Me</p>
+                </div>
+                <div class="btn-container">
+                  <button class="btn" type="submit" onclick="SignInUser()">
+                    Sign In
+                  </button>
+                </div>
+              </form>
+              <p class="p5">
+                Forgot Password? <a href="#" class="sp">Reset Password</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
