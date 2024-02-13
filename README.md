@@ -1,8 +1,8 @@
 # MartMe
 
-Welcome to Supermarket Online, a web-based application for shopping groceries conveniently from the comfort of your home!
+Welcome to MartMe, a web-based application for shopping groceries conveniently from the comfort of your home!
 
-**Features**
+## Features
 
 - Browse through a wide range of products conveniently categorized.
 - Add products to your shopping cart.
@@ -10,7 +10,7 @@ Welcome to Supermarket Online, a web-based application for shopping groceries co
 - Checkout securely.
 - Store your shopping cart data locally for a seamless experience across sessions.
 
-**Technologies Used**
+## Technologies Use
 
 - HTML
 - CSS
@@ -18,22 +18,21 @@ Welcome to Supermarket Online, a web-based application for shopping groceries co
 - JavaScript
 - Local Storage
 
-**Installation**
+## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/supermarket-online.git`
 2. Open `index.html` in your web browser.
 
-**Usage**
+## Usage
 
 - Navigate through the categories to find the products you need.
 - Click on a product to view details and add it to your shopping cart.
 - Review your cart items and make adjustments as necessary.
 - Proceed to checkout securely.
 
-**Local Storage**
+## Local Storage
+MartMe utilizes local storage to store the user's shopping cart data locally. This means your cart items will be preserved even if you close the browser window or refresh the page.
 
-Supermarket Online utilizes local storage to store the user's shopping cart data locally. This means your cart items will be preserved even if you close the browser window or refresh the page.
-
-**Contributing**
+## Contributing
 
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
