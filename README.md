@@ -20,7 +20,7 @@ Welcome to MartMe, a web-based application for shopping groceries conveniently f
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/supermarket-online.git`
+1. Clone the repository: `git clone https://github.com/mariamayman10/MartMe.git`
 2. Open `index.html` in your web browser.
 
 ## Usage
